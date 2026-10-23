@@ -1,6 +1,6 @@
 export async function onRequestPost({ request }) {
   try {
-    const apiKey = "AQ.Ab8RN6Ib_LTpBZ_zwJ5CgtYlNFE_Zrq9iqr9990_DVwE1xEEEQ";
+    const apiKey = "AQ.Ab8RN6JPEEcl9asGZnN4ZytDgEC_DkHwY4tv4rZw77bzJYUYrA";
     if (!apiKey) return Response.json({error:"API Key belum disetel."},{status:500});
     
     const body = await request.json();
