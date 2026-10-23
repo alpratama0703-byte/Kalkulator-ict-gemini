@@ -17,4 +17,4 @@ Jangan mengarang harga/struktur yang tidak terbaca. Beri bagian: (1) keterbacaan
     if (!analysis) return Response.json({error:"Gemini tidak mengembalikan hasil teks."},{status:502});
     return Response.json({analysis});
   } catch(e) { return Response.json({error:"Kesalahan saat memproses permintaan."},{status:500}); }
-}
+} 
