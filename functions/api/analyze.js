@@ -24,3 +24,4 @@ Jangan mengarang harga/struktur yang tidak terbaca. Beri bagian: (1) keterbacaan
     return Response.json({analysis});
   } catch(e) { return Response.json({error:"Kesalahan saat memproses permintaan."},{status:500}); }
 }
+[https://aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey)
